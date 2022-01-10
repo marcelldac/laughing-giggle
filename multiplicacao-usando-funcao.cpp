@@ -14,9 +14,9 @@ int main(void){
 	
 	int i, a, b;
 	
-	printf("Digite um número: %d", i);
+	printf("Digite um número:\n");
 	scanf("%d", &i);
-	printf("Digite outro número: %d", a);
+	printf("Digite outro número:\n");
 	scanf("%d", &a);
 	
 	b = func_mult(i,a);
